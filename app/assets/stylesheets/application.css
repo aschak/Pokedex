@@ -54,11 +54,19 @@ ul {
   height: 100%;
 }
 
-.pokemon-layout > div:nth-child(2) {
+#pokedex > div:nth-child(2) {
   width: 67%;
   float: left;
   padding: 0;
 }
+
+#pokedex > div > div {
+  height: 100%;
+  /* width: 33%; */
+  display:  inline-block;
+  overflow: auto;
+}
+
 
 .pokemon-index-pane {
   width: 33%;
@@ -119,6 +127,10 @@ ul {
   content: '';
   clear:both;
   display:block;
+}
+
+.poke-name {
+  font-size: 25px;
 }
 
 .new-pokemon button {
